@@ -14,5 +14,5 @@ func Part2(inpt io.Reader) string {
 			return "Not implemented"
 		}
 		line = line[:len(line)-1]
-    }
+	}
 }

@@ -10,7 +10,7 @@ import (
 )
 
 func Part1(inpt io.Reader) string {
-    var ans = 0
+	var ans = 0
 	reader := bufio.NewReader(inpt)
 	for {
 		line, err := reader.ReadString('\n')

@@ -83,5 +83,5 @@ func Part2(inpt io.Reader) string {
 		}
 	}
 
-    return strconv.Itoa(ans)
+	return strconv.Itoa(ans)
 }
